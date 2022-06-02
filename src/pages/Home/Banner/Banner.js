@@ -39,7 +39,7 @@ const Banner = () => {
                     placeholder="Your Email Address"
                   />
                   <button type="button" className="search-btn">
-                    Search
+                    Subscribe
                   </button>
                 </div>
               </div>
@@ -62,7 +62,7 @@ const Banner = () => {
                     placeholder="Your Email Address"
                   />
                   <button type="button" className="search-btn">
-                    Search
+                    Subscribe
                   </button>
                 </div>
               </div>
