@@ -1,0 +1,12 @@
+.main-feature {
+  background-color: #f4f6fa;
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+.main-feature-img {
+  width: 50px;
+  transition: 0.3s linear;
+}
+.main-feature-img:hover {
+  transform: translateY(-10px);
+}
