@@ -6,12 +6,12 @@ const CatagoryLink = () => {
   return (
     <div className="catagoryLink custom-container flex-column flex-lg-row">
       <div className="custom-container gap-3">
-        <CustomLink to="/home">Browse All Catagory</CustomLink>
-        <CustomLink to="/home">Home</CustomLink>
-        <CustomLink to="/home">About</CustomLink>
-        <CustomLink to="/home">Shop</CustomLink>
-        <CustomLink to="/home">Blog</CustomLink>
-        <CustomLink to="/home">Contact</CustomLink>
+        <CustomLink to="/">Browse All Catagory</CustomLink>
+        <CustomLink to="/">Home</CustomLink>
+        <CustomLink to="/">About</CustomLink>
+        <CustomLink to="/">Shop</CustomLink>
+        <CustomLink to="/">Blog</CustomLink>
+        <CustomLink to="/">Contact</CustomLink>
       </div>
       <div className="custom-container gap-2">
         <img src={headPhone} alt="" />

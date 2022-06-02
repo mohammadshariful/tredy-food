@@ -8,7 +8,7 @@ const MainNavbar = () => {
   return (
     <Navbar collapseOnSelect expand="lg">
       <Container>
-        <CustomLink to="/home">
+        <CustomLink to="/">
           <img className="logo" src={logo} alt="" />
           <span className="primary-color logo-name">Tredy Foods</span>
         </CustomLink>
@@ -16,17 +16,16 @@ const MainNavbar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="d-flex justify-content-center align-items-center gap-4 ms-auto ">
-            <CustomLink to="/home">
+            <CustomLink to="/">
               <FiHome /> <span>Home</span>
             </CustomLink>
-            <CustomLink to="/home"></CustomLink>
-            <CustomLink to="/home">
+            <CustomLink to="/">
               <FiHeart /> <span>Wishlist</span>
             </CustomLink>
-            <CustomLink to="/home">
+            <CustomLink to="/">
               <FiShoppingCart /> <span>Cart</span>
             </CustomLink>
-            <CustomLink to="/home">
+            <CustomLink to="/">
               <FiLogIn /> <span>SignIn</span>
             </CustomLink>
           </Nav>

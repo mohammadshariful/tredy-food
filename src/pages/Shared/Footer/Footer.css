@@ -1,0 +1,23 @@
+footer {
+  width: 95%;
+  margin: 20px auto 0;
+}
+.column {
+  margin: 20px 0;
+}
+.column p {
+  font-size: 15px;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+.column p:hover {
+  color: #2ecc71;
+  transform: translateX(10px);
+}
+.storeicon {
+  width: 100px;
+  cursor: pointer;
+}
+.phone_sell {
+  width: 35px;
+}
