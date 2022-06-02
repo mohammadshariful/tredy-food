@@ -1,1 +1,11 @@
-
+.primary-color {
+  color: #2ecc71;
+}
+.primary-bg {
+  background-color: #2ecc71;
+}
+.custom-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

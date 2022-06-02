@@ -1,0 +1,25 @@
+.info-container {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  border-bottom: 1px solid #808080;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.info p {
+  border-right: 1px solid #808080;
+  padding-right: 5px;
+}
+@media only screen and (max-width: 576px) {
+  /* info */
+  .info-container {
+    display: none;
+  }
+}
