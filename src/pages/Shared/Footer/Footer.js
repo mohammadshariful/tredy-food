@@ -131,7 +131,7 @@ const Footer = () => {
         </div>
         <div>
           <div className="d-flex gap-3 fs-5">
-            <span className="me-2">Follow Us</span>
+            <span className="me-2 fs-6">Follow Us</span>
             <a href="#facebook">
               <FaFacebook />
             </a>

@@ -1,0 +1,50 @@
+.slider1 {
+  background-color: #fef2d9;
+  border-radius: 20px;
+}
+.slider2 {
+  background-color: #c5ead9;
+  border-radius: 20px;
+}
+.input-group {
+  position: relative;
+  margin: 20px 0;
+}
+
+.input-group input {
+  display: block;
+  width: 100%;
+  font-size: 17px;
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+.search-btn {
+  position: absolute;
+  font-size: 17px;
+  display: block;
+  background-color: #2ecc71;
+  color: #fff;
+  top: 0;
+  right: 0;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 576px) {
+  .banner-container h1 {
+    font-size: 20px;
+  }
+  .input-group input {
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 8px 12px;
+  }
+  .search-btn {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+}

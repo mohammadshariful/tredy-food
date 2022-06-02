@@ -6,7 +6,12 @@ import CustomLink from "../CustomLink/CustomLink";
 import "./Navbar.css";
 const MainNavbar = () => {
   return (
-    <Navbar collapseOnSelect expand="lg">
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+      className="navbar-container"
+      sticky="top"
+    >
       <Container>
         <CustomLink to="/">
           <img className="logo" src={logo} alt="" />
