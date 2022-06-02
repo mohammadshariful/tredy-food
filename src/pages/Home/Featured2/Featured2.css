@@ -1,0 +1,27 @@
+.featured-column {
+  height: 250px;
+  margin-bottom: 30px;
+}
+.feature-container {
+  padding: 20px;
+  position: relative;
+}
+.feature-container h5 {
+  color: #000000ab;
+  transition: 0.3s ease-in-out;
+}
+.feature-container h5:hover {
+  transform: translateY(10px);
+}
+.shop-btn {
+  position: absolute;
+  left: 10px;
+  bottom: 15px;
+}
+.shop-btn:hover {
+  background-color: #dfdf42;
+}
+
+.shop-btn:hover .angleRight {
+  transform: translateX(10px);
+}
