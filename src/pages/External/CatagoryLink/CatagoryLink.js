@@ -16,7 +16,7 @@ const CatagoryLink = () => {
       <div className="custom-container gap-2">
         <img src={headPhone} alt="" />
         <div>
-          <h4 className="primary-color">1900-888</h4>
+          <h5 className="primary-color">1900-888</h5>
           <p>
             <small>24/7 support Center</small>
           </p>
