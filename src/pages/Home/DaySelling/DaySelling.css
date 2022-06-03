@@ -1,0 +1,39 @@
+.products {
+  border-radius: 8px;
+}
+.products img {
+  border-radius: 8px;
+}
+.overlaping-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  position: relative;
+  margin-top: -80px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.3s ease-in-out;
+}
+.overlaping-container p {
+  margin: 0;
+  font-size: 14px;
+}
+.products:hover .overlaping-container {
+  transform: translateY(-20px);
+}
+.addToCart {
+  border: 0;
+  color: #2ecc71;
+  background-color: #2ecc7048;
+  font-weight: 100;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 3px;
+  transition: 0.3s ease-in-out;
+}
+.addToCart:hover {
+  background-color: #2ecc71;
+  color: #fff;
+  transform: translateY(-5px);
+}
