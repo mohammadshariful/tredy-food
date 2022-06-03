@@ -1,24 +1,28 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { FaShoppingCart } from "react-icons/fa";
-import img from "../../../assets/Img/banner-5.png";
-import "./DaySelling.css";
-const DaySelling = () => {
-  const products = [1, 2, 3, 4];
+import img1 from "../../../assets/PopularProducts/product-1-2.jpg";
+import img2 from "../../../assets/PopularProducts/product-2-2.jpg";
+import "./PopularProducts.css";
+const PopularProducts = () => {
+  const popularProducts = [1, 2, 3, 4, 5, 6, 7, 8];
   return (
     <section className="my-3">
-      <h3 className="mb-3">Day selleing</h3>
+      <h3 className="mb-4">Popular Products</h3>
       <Row xs={1} md={2} lg={4} className="justify-content-center">
-        {products.map((product, index) => (
+        {popularProducts.map((product, index) => (
           <Col key={index} className="mb-3">
-            <div className="products">
-              <div className="">
-                <img className="img-fluid" src={img} alt="" />
+            <div className="popular-product-container">
+              <div className="popular-img-container">
+                <img className="img-fluid frontImg" src={img1} alt="" />
+                <img className="img-fluid backImg" src={img2} alt="" />
               </div>
-              <div className="overlaping-container">
-                <p>Simply Lemonade with Raspberry Juice</p>
+              <div className="product-info">
+                <small className="text-secondary">pet Foods</small>
+                <p>Blue Diamond Almonds Lightly Salted Vegetables</p>
                 <p>
-                  rating <sapn className="text-secondary">(3.0)</sapn>
+                  <span>rating</span>
+                  <span className="text-secondary">(4.0)</span>
                 </p>
                 <p>
                   <small className="text-secondary me-2">By</small>
@@ -36,6 +40,7 @@ const DaySelling = () => {
                   </button>
                 </div>
               </div>
+              <p className="news">new</p>
             </div>
           </Col>
         ))}
@@ -44,4 +49,4 @@ const DaySelling = () => {
   );
 };
 
-export default DaySelling;
+export default PopularProducts;

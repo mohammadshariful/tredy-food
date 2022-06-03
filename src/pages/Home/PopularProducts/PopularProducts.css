@@ -1,0 +1,44 @@
+.popular-product-container {
+  border: 1px solid #dcdcdc;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+.popular-product-container:hover {
+  border: 1px solid #2ecc7081;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 4px;
+}
+.popular-product-container p {
+  margin: 0;
+  font-size: 15px;
+}
+.news {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2ecc71;
+  padding: 5px 14px;
+  color: #fff;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 16px;
+}
+.popular-img-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.backImg {
+  display: none;
+}
+.popular-product-container:hover .frontImg {
+  display: none;
+}
+.popular-product-container:hover .backImg {
+  display: block;
+}
+
+.popular-product-container:hover .frontImg,
+.backImg {
+  transform: scale(1.2);
+}
