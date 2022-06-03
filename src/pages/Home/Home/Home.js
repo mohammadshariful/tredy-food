@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import CatagoryLink from "../../External/CatagoryLink/CatagoryLink";
 import Banner from "../Banner/Banner";
+import BestProduct from "../BestProduct/BestProduct";
 import DaySelling from "../DaySelling/DaySelling";
 import Featured1 from "../Featured1/Featured1";
 import Featured2 from "../Featured2/Featured2";
@@ -18,6 +19,7 @@ const Home = () => {
       <Featured1 />
       <Featured2 />
       <PopularProducts />
+      <BestProduct />
       <DaySelling />
       <ProductStoreInfo />
       <Reached />

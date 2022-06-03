@@ -1,0 +1,17 @@
+.cartAddBtn {
+  border: 0;
+  color: #fff;
+  background-color: #2ecc71;
+  margin-top: 10px;
+  padding: 5px 8px;
+  border-radius: 3px;
+  transition: 0.3s ease-in-out;
+}
+.cartAddBtn:hover {
+  background-color: #dfdf42;
+  transform: translateY(-5px);
+}
+.status-bar {
+  height: 4px;
+  margin: 5px 0;
+}
