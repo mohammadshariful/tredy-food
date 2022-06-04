@@ -30,8 +30,8 @@ const MainNavbar = () => {
             <CustomLink to="/">
               <FiShoppingCart /> <span>Cart</span>
             </CustomLink>
-            <CustomLink to="/">
-              <FiLogIn /> <span>SignIn</span>
+            <CustomLink to="/login">
+              <FiLogIn /> <span>Login</span>
             </CustomLink>
           </Nav>
         </Navbar.Collapse>
